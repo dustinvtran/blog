@@ -5,48 +5,46 @@ url: "http://example.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  title: Dustin Tran
+  avatar: photo.png
+  gravatar:
+  description: # TODO
+  #description: "Statistics, probability, machine learning"
 
-  # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+    © 2016 ・ <a href="http://dustintran.com">dustintran.com</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address:
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "dustinvtran"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "dustinvtran"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: # TODO Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: true
 
   # Localization strings
+  # TODO
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
@@ -56,14 +54,11 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
+  # TODO
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: false
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -71,4 +66,4 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+gems:
