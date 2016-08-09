@@ -2,3 +2,6 @@ _site
 .sass-cache
 Gemfile.lock
 .DS_Store
+
+# do not make drafts available on the repo, i.e., public
+_drafts
