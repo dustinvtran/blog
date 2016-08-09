@@ -1,0 +1,6 @@
+---
+layout: post
+title: Video resources for machine learning
+date: '2015-11-28 04:23:44'
+---
+
