@@ -60,6 +60,7 @@ theme_settings:
   post_navigation: false
 
 # BUILD SETTINGS
+permalink: pretty
 sass:
   sass_dir: _sass
   style: :compressed
