@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Clustering with Voronoi diagrams
-date: '2014-09-20 07:52:56'
-tags:
-- numerical-methods
 ---
 
 [Voronoi diagrams](http://en.wikipedia.org/wiki/Voronoi_diagram) are a well-established method in computational geometry, having seen applications across most all fields in the physical sciences. We introduce the notion here and proceed toward an uncommon direction: its connection to clustering algorithms in data.

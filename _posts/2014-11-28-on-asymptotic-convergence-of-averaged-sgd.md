@@ -1,7 +1,6 @@
 ---
 layout: post
 title: On asymptotic convergence of averaged SGD
-date: '2014-11-28 04:08:00'
 ---
 
 Stochastic gradient descent (SGD) has seen wide application for learning problems on large scale data, whether this be for generalized linear models [6], SVMs [1], or neural networks [2] alike.  We review a result by Polyak and Juditsky [3] on the theory of performing SGDs with averaged estimates, which shows that it is asymptotically as good as a second-order method.

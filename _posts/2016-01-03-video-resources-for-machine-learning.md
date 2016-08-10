@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Video resources for machine learning
-date: '2016-01-03 03:00:45'
 ---
 
 One feature unique to our field is the sheer amount of online resources. It's one of the reasons I personally got into machine learning over other disciplines, as self-learning is much more accessible.

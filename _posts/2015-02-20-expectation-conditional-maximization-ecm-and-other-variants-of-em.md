@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Expectation Conditional Maximization (ECM) and other variants of EM
-date: '2015-02-20 09:05:24'
 ---
 
 Here we shall introduce the Expectation Conditional Maximization algorithm (ECM) by Meng and Rubin (1993) by motivating it from a typical example. I'll also add some thoughts about other natural considerations at the end.
@@ -18,7 +17,7 @@ Now consider the problem of calculating the maximum likelihood estimate (MLE) of
     \mathbb{E}[Y\_i\mid Y\_{obs}, \beta^{(t)}, \Sigma^{(t)}],\qquad
     \mathbb{E}[Y\_iY\_i^T\mid Y\_{obs}, \beta^{(t)}, \Sigma^{(t)}]
     \end{align}
-    2. M-step: Substitute the above into expressions for the sufficient statistics 
+    2. M-step: Substitute the above into expressions for the sufficient statistics
     \begin{equation}
     \theta^{(t+1)} = \operatorname{arg\ max}_\theta Q(\theta\mid\theta^{(t)})
     \end{equation}

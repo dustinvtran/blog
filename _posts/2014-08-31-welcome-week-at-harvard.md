@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Welcome Week at Harvard
-date: '2014-08-31 05:54:22'
-tags:
-- reflections
 ---
 
 So it's Welcome Week at Harvard—in other words the long-lasting purgatory before the school year actually begins. To spend this time, I've been attending all the social events, ranging from mixers, to trivias, to the awkward parties reminiscent of middle school dances, and to free food (god knows that's incentive enough to go!).

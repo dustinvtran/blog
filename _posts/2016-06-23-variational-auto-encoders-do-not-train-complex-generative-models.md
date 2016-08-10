@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Variational auto-encoders do not train complex generative models
-date: '2016-06-23 03:14:58'
 ---
 
 There is a [tutorial on variational auto-encoders](http://arxiv.org/abs/1606.05908) which popped up on my arXiv radar this week. Thanks to Carl Doersch for writing this tutorial! As a researcher in this area, I believe there is sorely a need for an exposition of recent developments in variational inference. Variational inference's application for enabling deep generative models has exploded in the past few years. This tutorial is a great step in that direction. Inspired by this and  discussions with others during ICML, I'd like to make a few comments to clarify misunderstandings that are pervasive among newcomers to variational inference, Bayesian analysis, and/or auto-encoders.

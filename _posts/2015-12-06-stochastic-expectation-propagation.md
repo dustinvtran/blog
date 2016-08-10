@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Stochastic Expectation Propagation
-date: '2015-12-06 17:21:54'
 ---
 
 * Yingzhen Li, Jose Miguel Hernandez-Lobato, and Richard E. Turner. Stochastic Expectation Propagation. In _[Neural Information Processing Systems](http://papers.nips.cc/paper/5760-stochastic-expectation-propagation.pdf)_, 2015.

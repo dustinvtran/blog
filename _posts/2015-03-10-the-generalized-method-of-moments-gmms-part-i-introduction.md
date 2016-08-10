@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'The generalized method of moments (GMMs), Part I: Introduction'
-date: '2015-03-10 15:25:00'
 ---
 
 Let $Y\_1,\ldots,Y\_N$ be $(d+1)$-dimensional observations (collecting the $X\_n\in\mathbb{R}^d$ covariate within each $Y\_n\in\mathbb{R}$ response for shorthand) generated from some model with unknown parameters $\theta\in\Theta$.

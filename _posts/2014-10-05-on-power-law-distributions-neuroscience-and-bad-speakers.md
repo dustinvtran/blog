@@ -1,7 +1,6 @@
 ---
 layout: post
 title: On power law distributions, neuroscience, and bad speakers
-date: '2014-10-05 01:26:27'
 ---
 
 Statistical techniques have been increasingly more accepted as an empirical method for solving domain-specific problems. We introduce the power law here, a short description of its discussion in relation to neuroscience, and my thoughts of a recent talk regarding this.
@@ -10,7 +9,7 @@ A _power law distribution_ is a distribution whose density function is of the fo
 $$
 p(x) \propto L(x) x^{-\alpha},
 $$
-where $\alpha>1$ and $L(x)$, known as the _slowly varying function_, satisfies $\lim\_{x\to\infty} L(tx)/L(x)=1$ for some $t>0$. The intuition behind this is to require a probability distribution which is (asymptotically) scale invariant, and $L(x)$ is the direct result of that property [1]. 
+where $\alpha>1$ and $L(x)$, known as the _slowly varying function_, satisfies $\lim\_{x\to\infty} L(tx)/L(x)=1$ for some $t>0$. The intuition behind this is to require a probability distribution which is (asymptotically) scale invariant, and $L(x)$ is the direct result of that property [1].
 
 Perhaps the most well-known power law distribution is the _Pareto distribution_, which is defined such that for $X\sim\textrm{Pareto}(x\_m,\alpha)$,
 $$

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Comparing elastic net to stochastic gradient descent for GLMs
-date: '2014-10-25 04:29:46'
 ---
 
 The elastic net [3] provides a regularized objective function that meets a compromise between the two extremes of Lasso [2] and ridge regression. It takes into account both the Bayesian properties of ridge regression and also the need for sparse parameters via the $\ell\_1$ penalty from Lasso.
@@ -569,7 +568,7 @@ The following is run on a 2.6 Ghz i5 core processor.
 
 Stochastic gradient descent is obviously faster for large $p$. In particular, it achieves much faster performance after the $p\geq 1000$ cases, and with competitive mean squared error if $N$ or $P$ is large ($N$ or $p\geq 1000$). Empirically speaking, it's quite safe to conclude that stochastic gradient descent is the better scalable algorithm. Moreover, SGD's error is independent of the correlation, so while elastic net is faster for small $N$ or $p$, we still recommend using SGD in the case of highly correlated variables and small $N$ or $p$. The better estimate provided by SGD may be worth more than the slightly slower runtime.
 
-We can also run the same simulation varying $N$ and $p$ with averaged SGD (ASGD), which takes roughly the same time as standard SGD but with an improved estimate. The results would essentially be the same, only that the cutoff for a better estimate for ASGD over elastic net would be at a smaller $N$ than standard SGD's. 
+We can also run the same simulation varying $N$ and $p$ with averaged SGD (ASGD), which takes roughly the same time as standard SGD but with an improved estimate. The results would essentially be the same, only that the cutoff for a better estimate for ASGD over elastic net would be at a smaller $N$ than standard SGD's.
 
 The takeaway message? SGD is awesome.
 

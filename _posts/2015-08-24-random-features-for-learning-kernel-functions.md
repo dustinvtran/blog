@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Random features and kernel functions
-date: '2015-08-24 05:50:56'
 ---
 
 There's this really cool idea for learning nonlinear functions with simple techniques, launched quite a while ago by Rahimi and Recht (2007), and which I haven't fully grasped. Yet, the idea of random projections is becoming more popular these days; the problem of learning higher order functions simply comes up in so many places.

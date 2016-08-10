@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Inference networks
-date: '2016-07-21 21:22:28'
 ---
 
 I wrote a tutorial on [inference networks](http://edwardlib.org/tut_inference_networks) on the Edward website. I normally don't like writing outsourced blog posts, but I figure it's better to link there than write duplicated content which may later become outdated.

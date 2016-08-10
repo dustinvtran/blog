@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'NIPS workshop on Approximate Inference: submit your papers!'
-date: '2015-10-12 00:22:18'
 ---
 
 A [few of my colleagues in Columbia](http://www.cs.columbia.edu/~blei/), [Tamara Broderick](http://www.tamarabroderick.com), [Shakir Mohamed](http://www.shakirm.com), [Matt Hoffman](http://www.cs.princeton.edu/~mdhoffma/), and [Neil Lawrence](http://inverseprobability.com) are organizing a workshop on approximate (Bayesian) inference at NIPS this year. The Bayesian is implied! The deadline for abstract submissions is this Friday, October 16.

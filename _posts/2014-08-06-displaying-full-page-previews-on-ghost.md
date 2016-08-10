@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Displaying full page previews on Ghost
-date: '2014-08-06 06:24:14'
-tags:
-- hacks
 ---
 
 I've decided to document any hacks I encounter and find helpful in my work method, and to share them here for any reader who may also find them helpful.

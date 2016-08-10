@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Trends and Highlights of ICML 2015
-date: '2015-07-15 08:03:38'
 ---
 
 There were a number of exciting things happening at [ICML this past week](http://icml.cc/2015/), which took place in Lille, France.
 
-Deep learning remains the primary interest among a lot of research and excitement at ICML, where questions related to them would percolate even to the Bayesian nonparametrics and approximate inference sessions. It looks like a lot of the community has been paying more attention to introducing uncertainty in neural networks. (Deep) generative models are starting to get more headway now that approximate Bayesian inference algorithms—variational inference especially—are more tractable. Buzzwords now concentrate on variational autoencoders, probabilistic backpropagation, and deep latent variable models. 
+Deep learning remains the primary interest among a lot of research and excitement at ICML, where questions related to them would percolate even to the Bayesian nonparametrics and approximate inference sessions. It looks like a lot of the community has been paying more attention to introducing uncertainty in neural networks. (Deep) generative models are starting to get more headway now that approximate Bayesian inference algorithms—variational inference especially—are more tractable. Buzzwords now concentrate on variational autoencoders, probabilistic backpropagation, and deep latent variable models.
 
 On strictly the probabilistic side, there continues to be more work on increasing computational gains with subsampling, distributed implementations, and [sparse GPs](http://icml.cc/2015/?page_id=825#GaussianProcesses%C2%A0I).  There's been a lot of interesting work on trying to merge various approximate inference algorithms in order to obtain a more unifying framework.
 

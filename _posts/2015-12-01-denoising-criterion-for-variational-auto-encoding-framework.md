@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Denoising Criterion for Variational Auto-Encoding Framework
-date: '2015-12-01 00:01:56'
 ---
 
 * Daniel Jiwoong Im, Sungjin Ahn, Roland Memisevic, and Yoshua Bengio. Denoising Criterion for Variational Auto-Encoding Framework. [arXiv preprint arXiv:1511.06406](http://arxiv.org/abs/1511.06406), 2015.
@@ -53,7 +52,7 @@ Minor point: They claim that injecting noise both at the data input level ("deno
 \frac{p\_\theta(x,z)}{q\_{\varphi}(z\mid z')}
 \Big]
 \Big]
-\ne 
+\ne
 \mathbb{E}\_{q\_{\psi}(z''\mid x)}
 \mathbb{E}\_{q\_{\psi}(z'\mid x)}
 [

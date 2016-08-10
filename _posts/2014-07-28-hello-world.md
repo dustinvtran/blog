@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello world!
-date: '2014-07-28 06:32:21'
 ---
 
 This is my first launch for a blog using a VPS. I've still not completely determined what would exist in these netherealms of the internet; in general, however, it would examine any current thoughts relevant to an activity I am doing—whether that be statistical concepts, data science code tricks, machine learning tools, or even my hobbies in fiction and programming.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: On parameterization and natural gradients in optimization
-date: '2015-04-27 22:52:45'
 ---
 
 I went to a talk by [Roger Grosse](http://www.cs.toronto.edu/~rgrosse/) today, who was presenting his very recent work on a new SGD procedure called [K-FAC](http://arxiv.org/abs/1503.05671) [2]. Using the correct parameterization during optimization is a crucial issue, and it's great that there's more work revolving around this as previous literature has focused mainly on the issue of the learning rate.

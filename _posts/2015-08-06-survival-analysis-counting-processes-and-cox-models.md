@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Survival analysis, counting processes, and Cox models
-date: '2015-08-06 15:45:37'
 ---
 
 Survival analysis is the analysis of time duration until the occurrence of an event.  It has a strong root in economics, medicine, engineering, and sociology.
@@ -70,7 +69,7 @@ where $\mathcal{R}\_i$ is the _risk set_, i.e., the set of units available to fa
 
 One can also derive the Hessian, but a simple maximum likelihood procedure using gradient descent can now easily proceed: one iterates $\theta\_n$, re-estimates $\hat h\_i$'s conditional on the new update of $\theta\_n$, then repeats.
 
-Perhaps surprisingly, estimates from this partial likelihood, which require no estimation of the baseline hazard $h_0(\cdot)$, share the same asymptotic properties as that of the full likelihood (Tsiatis, 1975). 
+Perhaps surprisingly, estimates from this partial likelihood, which require no estimation of the baseline hazard $h_0(\cdot)$, share the same asymptotic properties as that of the full likelihood (Tsiatis, 1975).
 
 ## Poisson models and stochastic processes
 On a modelling perspective, the Cox proportional hazards model has a striking resemblance to Poisson regression. If the baseline hazard is a constant $h\_0(t)=\lambda$ for some $\lambda\in\mathbb{R}$, then the log likelihood is
@@ -89,7 +88,7 @@ Excluding additive constants, this is the same expression as the log likelihood 
 \end{equation}
 where one can interpret $\log t\_i$ as an offset for modelling the rate $\log (\mathbb{E}[c\_i\mid t\_i,x\_i]/t\_i)$, and $\log\lambda$ as an intercept. In full generality, the Cox model is simply a Poisson model for rates in which the "intercept" $\log h_0(t\_i)$ is a function varying over time.
 
-If one has prior knowledge about the structural form  of the baseline hazard, then it makes sense to forgo the partial likelihood approach and to adopt a Bayesian methodology, in which one places a stochastic process as a prior for $h\_0(t)$, e.g., using a Gaussian process, Beta process, or extended Gamma process, see Dey and Rao (2005; Section 3.2.1) for more details. 
+If one has prior knowledge about the structural form  of the baseline hazard, then it makes sense to forgo the partial likelihood approach and to adopt a Bayesian methodology, in which one places a stochastic process as a prior for $h\_0(t)$, e.g., using a Gaussian process, Beta process, or extended Gamma process, see Dey and Rao (2005; Section 3.2.1) for more details.
 
 The specification of the hazard function in survival analysis is analogous to specifying the intensity function for point processes. That is, as the Cox proportional hazards model with constant baseline hazard $\lambda$ is equivalent to a form of Poisson regression, a Cox process with constant intensity $\lambda$ is equivalent to the Poisson process.
 

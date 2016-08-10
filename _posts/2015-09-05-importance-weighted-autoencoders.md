@@ -22,7 +22,7 @@ The main contribution of the paper comes from a simple derivation of importance 
 Here's a minibatch ELBO:
 \begin{equation}
 \mathcal{L}\_{minibatch}(\mathbf{x}) =
-\frac{1}{k}\sum_{i=1}^k 
+\frac{1}{k}\sum_{i=1}^k
 \left[
 \log \frac{p(\mathbf{x},\mathbf{h}\_i)}{q(\mathbf{h}\_i\mid\mathbf{x})}
 \right],

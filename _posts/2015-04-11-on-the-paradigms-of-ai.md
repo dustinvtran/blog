@@ -1,7 +1,6 @@
 ---
 layout: post
 title: On the paradigms of AI
-date: '2015-04-11 10:25:00'
 ---
 
 There is a recently popular [blog post](http://quantombone.blogspot.com/2015/04/deep-learning-vs-probabilistic.html) which describes what the author claims is the three paradigms in AI: logic, graphical models, and deep learning.

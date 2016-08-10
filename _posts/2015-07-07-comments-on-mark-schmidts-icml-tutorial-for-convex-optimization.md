@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Comments on Mark Schmidt's ICML tutorial for convex optimization
-date: '2015-07-07 09:10:19'
 ---
 
 Yesterday was a series of tutorials at ICML, and the ones I attended were all quite insightful—for instance, [Emily Fox's](http://www.stat.washington.edu/~ebfox/) coherent map of Bayesian models of time series analysis (and it was the first time I saw use of a hyper Markov prior in practice!).
@@ -24,7 +23,7 @@ There is a lot of interest lately in SAG (Le Roux et al., 2012) and SVRG (Johnso
 
 There's a footnote here on the advertised linear convergence rate for strongly convex functions however. It is a bit misleading as it is a convergence rate to the _maximum likelihood estimate_, __not__ the ground truth. The maximum likelihood estimate asymptotically converges to the truth at the sublinear rate $O(1/t)$, so if the goal is to recover the ground truth then such methods do not help.
 
-This relatively unknown fact more generally addresses the widespread problem in the optimization community in that few consider the statistical properties when viewing these methods as estimators. Ironically, stochastic gradient descent was originally developed under the statistical theory of stochastic approximations by Robbins and Monro (1951), and it has seen little exposure since then. Convergence rates, which are the primary focus of the optimization community, is simply analysis of the convergence rate of the asymptotic bias of these estimators. It is natural to consider other properties, e.g., the asymptotic variance of the stochastic gradient estimators so as to minimize it. 
+This relatively unknown fact more generally addresses the widespread problem in the optimization community in that few consider the statistical properties when viewing these methods as estimators. Ironically, stochastic gradient descent was originally developed under the statistical theory of stochastic approximations by Robbins and Monro (1951), and it has seen little exposure since then. Convergence rates, which are the primary focus of the optimization community, is simply analysis of the convergence rate of the asymptotic bias of these estimators. It is natural to consider other properties, e.g., the asymptotic variance of the stochastic gradient estimators so as to minimize it.
 
 Moreover, the theoretical results are violated for more complicated models in which the objective function is either nonconvex (e.g., in Bayesian inference using variational methods for mixture models) or nonlinear (e.g., MLE for many statistical models). While it's difficult to make any theoretical progress outside of these nice set of assumptions, it is ultimately where we must progress; it is illogical to use the "best" stochastic gradient method on complex models where the assumptions do not even hold anyways.
 

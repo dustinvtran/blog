@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Using social media to predict outbreaks of communicable diseases
-date: '2014-09-16 05:40:52'
-tags:
-- articleimage
-- biostatistics
 ---
 
 ![](/blog/content/images/2014/Sep/out-000-2.jpg)

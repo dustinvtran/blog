@@ -1,11 +1,6 @@
 ---
 layout: post
 title: Reflections on a data science internship
-date: '2014-08-15 17:28:24'
-tags:
-- articleimage
-- earnest
-- data-science
 ---
 
 ![](/blog/content/images/2014/Aug/Earnest---Loans-for-living-life--2014-08-15-10-24-43-3.jpg)
@@ -43,7 +38,7 @@ We also have weekly *Team Nights* (formerly called *Jank n Drank*, and pending a
 
 # Pace
 
-Earnest is lean, reactive, quick to ship, and scalable. There's a reason it received [$15 million](http://www.crunchbase.com/organization/earnest) in venture funding from investors such as Andreessen Horowitz and First Round Capital. Edmond Lau on Quora describes this best for early stage startups in general: 
+Earnest is lean, reactive, quick to ship, and scalable. There's a reason it received [$15 million](http://www.crunchbase.com/organization/earnest) in venture funding from investors such as Andreessen Horowitz and First Round Capital. Edmond Lau on Quora describes this best for early stage startups in general:
 > "Pre-commit code reviews, weekly, biweekly, or even monthly release cycles, launch checklists, and formalized product approval meetings are all mechanisms and processes aimed at creating structure and minimizing breakages at larger companies, but often at the cost of development speed. Continuous deployment (where every commit can go to production), post-commit code reviews, and lighter-weight approval processes at startups aim to allow for quick iteration while providing for basic quality control." [[1]](http://qr.ae/MQD17)
 
 There is no sluggish legacy code or trying to get our products to work from a long history, so we're able to use the latest tools in the industry. We're quick to adapt and willing to try new techniques if they can better ourselves in the long run. After all, the end goal is not to optimize for short term returns but for long term value. We lend personal loans to people now and years later we may even do their home mortgage.

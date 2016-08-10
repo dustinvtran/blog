@@ -8,7 +8,7 @@ date: '2015-11-28 17:30:15'
 
 ## Summary
 
-Word embeddings have been huge for the NLP community ever since Tomas Mikolov's 2013 paper (it's gotten over 1000 citations in 2 years!). The basic idea is to learn a $z$-dimensional parameter vector $w\_i\in\mathbb{R}^z$ associated to each word in a vocabulary. This is important as part of a machine learning pipeline which extracts features for language models, text classification, etc. Not unlike advertisements of discrete Bayesian nonparametric models, Nalisnick and Ravi propose the Infinite Skip-Gram model, which allows the dimension $z$ of the word vectors to grow arbitrarily. 
+Word embeddings have been huge for the NLP community ever since Tomas Mikolov's 2013 paper (it's gotten over 1000 citations in 2 years!). The basic idea is to learn a $z$-dimensional parameter vector $w\_i\in\mathbb{R}^z$ associated to each word in a vocabulary. This is important as part of a machine learning pipeline which extracts features for language models, text classification, etc. Not unlike advertisements of discrete Bayesian nonparametric models, Nalisnick and Ravi propose the Infinite Skip-Gram model, which allows the dimension $z$ of the word vectors to grow arbitrarily.
 
 Letting word vector $w\_i\in\mathbb{R}^\infty$, context vector $c\_k\in\mathbb{R}^\infty$, and random positive integer $z\in\mathbb{Z}^+$, they consider multinomial logistic regression with (Eq.3)
 $$
