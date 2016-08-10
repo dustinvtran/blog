@@ -4,6 +4,7 @@
   border-bottom: 1px solid $border-color;
   display: inline-block;
   float: left;
+  font-family: $font-family-headings;
   width: 100%;
 
   a {
@@ -11,8 +12,8 @@
   }
 
   .avatar {
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
     float: left;
     margin-top: -3px;
     border-radius: 0.2em;
@@ -21,9 +22,8 @@
 
   .site-title {
     float: left;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 1.5;
+    font-size: 1.5em;
+    line-height: 1.75;
   }
 
   .site-nav {

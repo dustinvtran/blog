@@ -8,13 +8,12 @@ theme_settings:
   title: Dustin Tran
   avatar: photo.png
   gravatar:
-  description: # TODO
-  #description: "Statistics, probability, machine learning"
+  description:
 
   header_text:
   header_text_feature_image:
   footer_text: >
-    © 2016 ・ <a href="http://dustintran.com">dustintran.com</a>
+    © 2016 ・ <a class="plain" href="http://dustintran.com">dustintran.com</a>
 
   # Icons
   rss: false

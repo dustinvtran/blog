@@ -13,13 +13,13 @@ layout: default
   <article>
   <div class="posts">
     <header>
-      <h1>blog</h1>
+      <h1 style="text-align:center;">blog</h1>
     </header>
     <table style="width:100%">
       {% for post in site.posts %}
       <tr>
         <td style="width:25%;border:none;"><i class="icon-clock"></i> {{ post.date | date: "%b %d, %Y" }}</td>
-        <td style="border:none;"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
+        <td style="border:none;"><a class="post-link plain" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
       </tr>
       {% endfor %}
     </table>

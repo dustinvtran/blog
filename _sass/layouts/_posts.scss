@@ -7,8 +7,7 @@ article,
 }
 article {
   header {
-    margin-bottom: 6%;
-    text-align: center;
+    margin-bottom: $padding-x-small;
   }
   a:hover {
     @extend %link-hover;
@@ -22,10 +21,11 @@ header {
     margin: 0;
   }
   .meta {
-    color: rgba($text-color, .5);
-    font-size: 0.9em;
+    color: $text-color;
     letter-spacing: 0.1em;
     margin: 0;
+    padding-top:3%;
+    text-align: left;
     text-transform: uppercase;
   }
 }

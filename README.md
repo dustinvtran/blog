@@ -2,17 +2,18 @@
 
 This blog is built with [Jekyll](https://jekyllrb.com/).
 
-The theme is based off [Type Theme](https://rohanchandra.github.io/project/type/),
-with heavy inspiration by [Otoro](http://blog.otoro.net/). The
-frontpage is inspired by Paul Graham's minimal
-[essays](http://paulgraham.com/articles.html) page, made slightly more
-polished and modern.
+The theme is based off
+[Type Theme](https://rohanchandra.github.io/project/type/), and is
+heavily inspired by [Otoro](http://blog.otoro.net/), the [New York
+Times](http://www.nytimes.com/), and the
+[Rosenrot](http://the-rosenrot.com/). The journal-like frontpage takes
+cue from Paul Graham's [essays](http://paulgraham.com/articles.html).
 
 The following Jekyll plugins are used:
 
-+ KaTeX (comes with TypeTheme)
-+ RSS (comes with TypeTheme)
-+ Jekyll Scholar
++ [KaTeX]() (comes with TypeTheme)
++ [RSS]() (comes with TypeTheme)
++ [Jekyll Scholar]()
 
 ## Workflow
 
@@ -51,3 +52,12 @@ Here's my workflow for writing and submitting blog posts.
   ```bash
   jekyll build
   ```
+
+To update the theme, set up the theme's original repo in remote:
+```
+git remote add theme git@github.com:rohanchandra/type-theme.git
+```
+Whenever you want update, simply run
+```
+git pull origin theme
+```
