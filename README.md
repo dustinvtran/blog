@@ -11,23 +11,19 @@ cue from Paul Graham's [essays](http://paulgraham.com/articles.html).
 
 The following Jekyll plugins are used:
 
-+ [KaTeX]() (comes with TypeTheme)
-+ [RSS]() (comes with TypeTheme)
-+ [Jekyll Scholar]()
++ [KaTeX](https://khan.github.io/KaTeX/), Google Fonts, Google Analytics, Normalize, Pygments (comes with TypeTheme)
++ [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar)
 
 ## Workflow
 
 Here's my workflow for writing and submitting blog posts.
 
 1. Dump thoughts into a markdown file, in `_drafts/`. Or edit the many
-   files already inside `_drafts/`. Preview it with
-  TODO
+   files already inside `_drafts/`. Preview (and generate) the static
+   site from a local server.
 
   ```bash
-  ```
-  View (and generate) the static site on a local server.
-  ```bash
-  jekyll serve
+  jekyll serve --drafts
   ```
 2. When complete, rename and move markdown file to `_posts/`.
 3. Push file to github.
@@ -53,11 +49,19 @@ Here's my workflow for writing and submitting blog posts.
   jekyll build
   ```
 
-To update the theme, set up the theme's original repo in remote:
+## Maintenance
+
+To keep the theme up to date, I track the theme's original repo on
+the `type-theme` branch. Add to remote the original repo,
 ```
 git remote add theme git@github.com:rohanchandra/type-theme.git
 ```
-Whenever you want update, simply run
+Whenever you want to update, simply run
 ```
-git pull origin theme
+git checkout type-theme
+git pull theme master
 ```
+You can compare `type-theme` to `master` and possibly merge in any
+changes. Keeping the theme up-to-date on a separate branch avoids
+treating the repo as a fork: this repo does more than just style
+things and is thus not appropriate as a fork.
