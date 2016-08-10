@@ -87,7 +87,7 @@ dd {
     margin-left: 2em;
 }
 p, ol, ul, dl, .math-display {
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1em;
 }
 // KaTeX math display
@@ -111,7 +111,6 @@ hr {
 }
 a {
   color: $link-color;
-  text-decoration: none;
 }
 .nav {
   list-style: none;
@@ -132,8 +131,12 @@ img[align=right] {
 .site-header .site-nav a {
   font-size: 1.5em;
 }
+.site-header a {
+  text-decoration: none;
+}
 a.plain {
   color: $plain-color;
+  text-decoration: none;
 }
 // Code formatting (following minima)
 pre,

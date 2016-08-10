@@ -1,7 +1,7 @@
 // Typography
-$font-family-main: Roboto, 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-headings: 'nyt-cheltenham-sh', georgia, 'times new roman', times, serif;
-$font-size: 1em;
+$font-family-main: georgia, 'times new roman', times, serif;
+$font-family-headings: 'nyt-cheltenham-sh', 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+$font-size: 17px;
 
 // Padding
 $padding-large: 20%;
@@ -14,7 +14,7 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #333333;
+$text-color: #000000;
 $plain-color: #000000;
 $link-color: #326891;
 $selection-color: #D4D4D4; // visible when highlighting text

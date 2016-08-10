@@ -8,6 +8,11 @@ article,
 article {
   header {
     margin-bottom: $padding-x-small;
+    h1 {
+      font-weight: 700;
+      font-size: 2.125rem;
+      font-style: italic;
+    }
   }
   a:hover {
     @extend %link-hover;
@@ -21,6 +26,8 @@ header {
     margin: 0;
   }
   .meta {
+    font-family: $font-family-headings;
+    font-family: "nyt-cheltenham-sh"; /* TODO hard-code font */
     color: $text-color;
     letter-spacing: 0.1em;
     margin: 0;
