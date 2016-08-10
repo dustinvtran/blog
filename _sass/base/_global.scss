@@ -135,3 +135,26 @@ img[align=right] {
 a.plain {
   color: $plain-color;
 }
+// Code formatting (following minima)
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://dustintran.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -60,8 +60,6 @@ theme_settings:
   post_navigation: false
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
