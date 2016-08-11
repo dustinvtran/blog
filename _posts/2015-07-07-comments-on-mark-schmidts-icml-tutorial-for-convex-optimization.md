@@ -19,9 +19,9 @@ There is a lot of interest lately in SAG (Le Roux et al., 2012) and SVRG (Johnso
 
 ### ASGD
 * +: asymptotically efficient, works for streaming data
-* -: sublinear convergence rate O(1/t) for strongly convex functions
+* -: sublinear convergence rate $$O(1/t)$$ for strongly convex functions
 
-There's a footnote here on the advertised linear convergence rate for strongly convex functions however. It is a bit misleading as it is a convergence rate to the _maximum likelihood estimate_, __not__ the ground truth. The maximum likelihood estimate asymptotically converges to the truth at the sublinear rate $O(1/t)$, so if the goal is to recover the ground truth then such methods do not help.
+There's a footnote here on the advertised linear convergence rate for strongly convex functions however. It is a bit misleading as it is a convergence rate to the _maximum likelihood estimate_, __not__ the ground truth. The maximum likelihood estimate asymptotically converges to the truth at the sublinear rate $$O(1/t)$$, so if the goal is to recover the ground truth then such methods do not help.
 
 This relatively unknown fact more generally addresses the widespread problem in the optimization community in that few consider the statistical properties when viewing these methods as estimators. Ironically, stochastic gradient descent was originally developed under the statistical theory of stochastic approximations by Robbins and Monro (1951), and it has seen little exposure since then. Convergence rates, which are the primary focus of the optimization community, is simply analysis of the convergence rate of the asymptotic bias of these estimators. It is natural to consider other properties, e.g., the asymptotic variance of the stochastic gradient estimators so as to minimize it.
 

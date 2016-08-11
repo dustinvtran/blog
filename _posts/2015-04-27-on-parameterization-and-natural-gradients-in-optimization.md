@@ -16,4 +16,4 @@ This also seems to be the right track for variational inference as we can only g
 
 [2] James Martens and Roger Grosse. Optimizing neural networks with kronecker-factored approximate curvature. [arXiv:1503.05671](http://arxiv.org/abs/1503.05671), 2015.
 
-[3] Yurii Nesterov. A method for solving a convex programming problem with convergence rate $O(1/k^2)$. Soviet Math. Dokl., 27, 372–376, 1983.
+[3] Yurii Nesterov. A method for solving a convex programming problem with convergence rate $$O(1/k^2)$$. Soviet Math. Dokl., 27, 372–376, 1983.

@@ -12,23 +12,29 @@ Having recently finished some papers with Rajesh Ranganath and Dave Blei on vari
 
 There's been a lot of recent work merging variational inference and deep learning. Very much a continuation of neural variational inference from Mnih and Gregor (2014), this paper addresses inference for deep discrete latent variable models. The classic example is the sigmoid belief net, where inference is much more difficult than for continous latent variable models. The stochastic gradient of the ELBO—the objective function in variational inference—has impractically high variance during optimization.
 
-Control variates are the most well-known technique for variance reduction (Paisley et al., 2012; Ranganath et al., 2014). Writing the gradient of the ELBO as $\mathbb{E}\_{q(z)}[\nabla\_{\lambda} \log q(z; \lambda) f(z)]$ where $f(z)=\log p(x,z) - \log q(z; \lambda)$, Monte Carlo estimates of
-$$
-\mathbb{E}\_{q(z)}[\nabla\_{\lambda} \log q(z; \lambda) (f(z) - h(z))] + \mu,
-\quad
-\mu = \mathbb{E}\_{q(z)}[\nabla\_{\lambda} \log q(z; \lambda) h(z)]
-$$
-are still unbiased, and appropriate choices of the control variate $h(z)$ can reduce the variance of the estimator.
+Control variates are the most well-known technique for variance reduction (Paisley et al., 2012; Ranganath et al., 2014). Writing the gradient of the ELBO as $$\mathbb{E}_{q(z)}[\nabla_{\lambda} \log q(z; \lambda) f(z)]$$ where $$f(z)=\log p(x,z) - \log q(z; \lambda)$$, Monte Carlo estimates of
 
-The authors propose a control variate based on a first-order Taylor expansion of $f(z)$ around a fixed value $\bar z$. By doing so, they are able to use gradient information from the model, evaluated at that point:
+$$
+\mathbb{E}_{q(z)}[\nabla_{\lambda} \log q(z; \lambda) (f(z) - h(z))] + \mu,
+\quad
+\mu = \mathbb{E}_{q(z)}[\nabla_{\lambda} \log q(z; \lambda) h(z)]
+$$
+
+are still unbiased, and appropriate choices of the control variate $$h(z)$$ can reduce the variance of the estimator.
+
+The authors propose a control variate based on a first-order Taylor expansion of $$f(z)$$ around a fixed value $$\bar z$$. By doing so, they are able to use gradient information from the model, evaluated at that point:
+
 $$
 h(z) = f(\bar z) + f'(\bar z)(z - \bar z).
 $$
+
 The gradient of the ELBO simplifies to (Eq.3 in the paper)
+
 $$
-\mathbb{E}\_{q(z)}\Big[\nabla\_{\lambda} \log q(z; \lambda) \Big(f(z) - f(\bar z) - f'(\bar z)(z - \bar z)\Big)\Big] + f'(\bar z)\nabla\_\lambda \mathbb{E}\_{q(z)}[z].
+\mathbb{E}_{q(z)}\Big[\nabla_{\lambda} \log q(z; \lambda) \Big(f(z) - f(\bar z) - f'(\bar z)(z - \bar z)\Big)\Big] + f'(\bar z)\nabla_\lambda \mathbb{E}_{q(z)}[z].
 $$
-Of course, calculating $f'(\bar z)$ is not feasible because of the discrete variables. To address this they apply a "deterministic mean-field network" as an approximation. This enables backpropagation over the mean values of the discrete distributions, rather than over samples from the discrete distribution. In experiments, they demonstrate faster convergence than other estimators, and better results than other (biased) estimators.
+
+Of course, calculating $$f'(\bar z)$$ is not feasible because of the discrete variables. To address this they apply a "deterministic mean-field network" as an approximation. This enables backpropagation over the mean values of the discrete distributions, rather than over samples from the discrete distribution. In experiments, they demonstrate faster convergence than other estimators, and better results than other (biased) estimators.
 
 ## Discussion
 

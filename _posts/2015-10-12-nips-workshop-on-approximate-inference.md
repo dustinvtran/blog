@@ -7,4 +7,4 @@ A [few of my colleagues in Columbia](http://www.cs.columbia.edu/~blei/), [Tamara
 
 We were lucky to get an incredible list of invited speakers and panelists, as well as some travel funding. I'm really looking forward to the two panels—one on the practical usage of approximate inference, and the other on the foundational issues. Hoping it goes nearly as well as last year's workshop on variational inference.
 
-Workshop URL: http://approximateinference.org
+Workshop URL: [http://approximateinference.org](http://approximateinference.org)

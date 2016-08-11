@@ -3,7 +3,8 @@ layout: post
 title: Reflections on a data science internship
 ---
 
-![](/blog/content/images/2014/Aug/Earnest---Loans-for-living-life--2014-08-15-10-24-43-3.jpg)
+![]({{ site.baseurl }}/assets/2014-08-15-figure.jpg)
+
 Over the summer I had the pleasure of working for [Earnest](https://www.meetearnest.com/), a financial technology startup which offers personal loans using a merit-based algorithmic system. The experience was educational, challenging, and—simply put—fun. I'm glad that of all the summer offers I was deciding upon at the time, I chose  Earnest.
 
 Here I'll pinpoint some of the amazing things that really attracted me about the startup, as well as how I feel about the time I spent working there. You can read about what I actually did [here](http://not.a.website) (to be published: pending company approval for super secret algorithm reasons).
@@ -24,8 +25,6 @@ Fortunately, I was able to use the most of my abilities during my internship. I 
 <!--
 Coding-wise, I improved my knowledge of awesome packages in R like `ggplot2`, `googleVis`, `plyr`, and `knitr`, and modules in Python like `pandas`, `scipy`, `scikit-learn`, and how our results in the modeling side and metric reporting would be applied in other teams such as marketing and underwriting/risk.
 -->
-
-![picture of the office]
 
 # Culture
 

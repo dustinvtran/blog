@@ -3,10 +3,6 @@ layout: post
 title: 'A quick update: Edward, and some motivations'
 ---
 
-<!--
-This blog has been inactive in the past few months; so to give a quick update—and also to build my own momentum for continuing to write—I'll add some short thoughts.
--->
-
 As you may (or may not) know, I've been busy lately spear-heading [Edward](https://github.com/blei-lab/edward), an open-source library for probabilistic modeling. It's meant to help bridge the gap between what I view as two dichotomous approaches of statistical learning: one approach develops complex models in order to achieve the best results on a specific task; and the other approach adheres to simple models in order to understand every component of the analysis both empirically and theoretically. The former starts at the end-goal; the latter starts at the foundation.
 
 There are many names you can append to one of these approaches, and certainly those names imply contrasting motivations due to culture, and thus contrasting views and contrasting applications. But ultimately, the goal is still the same. The approaches are not orthogonal, but a lack of awareness connecting the two make them seem to be. A neural network is a powerful aproach for modeling non-linear functions (I mean this not tongue-in-cheek; it's difficult to summarize many decades of innovation in a sentence). A Bayesian linear model is a powerful approach for incorporating parameter uncertainty during supervision, and for accessing a basis on which to validate our models.

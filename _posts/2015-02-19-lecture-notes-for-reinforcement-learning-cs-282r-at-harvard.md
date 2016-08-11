@@ -5,7 +5,7 @@ title: Lecture notes for Reinforcement learning (CS 282r)
 
 I've taken a recent interest in reinforcement learning, particularly regarding Bayesian approaches. There is a taught seminar course at Harvard right now by [Finale Doshi-Velez](http://finale.seas.harvard.edu), a recently hired professor who was a postdoc in Ryan Adam's [Harvard Intelligent Probabilistic Systems](http://hips.seas.harvard.edu) lab and who works on partially observable MDPs. For anyone curious about how the course fares, I'm making my ongoing notes available online:
 
-* [CS 282r: Reinforcement learning](http://dustintran.com/notes/cs282r.pdf) (Spring 2015)
+* [CS 282r: Reinforcement learning]({{ site.baseurl }}/assets/cs282r.pdf) (Spring 2015)
 
 I quite enjoy it so far. As with any seminar course, the structure mostly comprises of reading and discussing seminal papers, and which has led to very interesting discussions. The content itself is quite intriguing as authors have integrated concepts from a variety of fields such as game theory.
 
