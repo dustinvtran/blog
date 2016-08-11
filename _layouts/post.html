@@ -4,10 +4,19 @@ layout: default
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
-    <p class="meta">
-    {{ page.date | date: "%b %d, %Y" }}
-    {% if page.author %} - {{ page.author }}{% endif %}
-    </p>
+    <div style="padding-top:3%;"></div>
+    <div class="meta">
+      <span class="author">
+        By
+        <a class="author-name" href="{{ site.url }}">{{ site.theme_settings.author }}</a>
+        <!-- TODO guest posts -->
+        <!--{% if page.author %} - {{ page.author }}{% endif %}-->
+      </span>
+      <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+      <ul>
+        {% include icons.html %}
+      </ul>
+    </div>
   </header>
   <section class="post-content">{{ content }}</section>
 </article>

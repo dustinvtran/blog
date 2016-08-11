@@ -25,7 +25,7 @@ Here's my workflow for writing and submitting blog posts.
   ```bash
   jekyll serve --drafts
   ```
-2. When complete, rename and move markdown file to `_posts/`.
+2. When complete, rename and move the file to `_posts/`.
 3. Push file to github.
 
   ```bash
@@ -43,7 +43,7 @@ Here's my workflow for writing and submitting blog posts.
   cd /var/www/dustintran.com/blog
   git pull origin master
   ```
-6. Re-build the site.
+6. Re-build the site. TODO
 
   ```bash
   jekyll build

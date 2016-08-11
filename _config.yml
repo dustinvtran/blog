@@ -6,6 +6,7 @@ url: "http://dustintran.com" # the base hostname & protocol for your site
 theme_settings:
   # Meta
   title: Dustin Tran
+  author: Dustin Tran
   avatar: photo.png
   gravatar:
   description:

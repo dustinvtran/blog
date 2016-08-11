@@ -26,14 +26,41 @@ header {
     margin: 0;
   }
   .meta {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    color: $text-color;
     font-family: $font-family-headings;
     font-family: "nyt-cheltenham-sh"; /* TODO hard-code font */
-    color: $text-color;
-    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     margin: 0;
-    padding-top:3%;
+    padding-top: 14px;
+    padding-bottom: 16px;
     text-align: left;
-    text-transform: uppercase;
+    .author {
+      margin-right: 12px;
+      .author-name {
+        text-transform: uppercase;
+      }
+    }
+    .date {
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    .fa {
+      font-size: 1.5em;
+    }
+    a {
+      color: $header-link-color;
+      text-decoration: none;
+    }
+    ul {
+      float: right;
+    }
+    li {
+      display: inline;
+    }
   }
 }
 .feature-image {
