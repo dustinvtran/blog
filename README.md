@@ -27,27 +27,24 @@ Here's my workflow for writing and submitting blog posts.
   jekyll serve --drafts
   ```
 2. When complete, rename and move the file to `_posts/`.
-3. Push file to github.
+3. Re-build the site.
 
   ```bash
-  git add ...
-  git push origin master
+  jekyll build --destination ../blog
   ```
-4. SSH into VPS.
+4. Copy generated blog into VPS.
 
   ```bash
-  sshrc digitalocean
+  scp -r blog digitalocean:/var/www/dustintran.com
   ```
-5. Pull branch changes from github.
+5. (Optionally), log into VPS and update website.
+  (This process can be streamlined by either building on the VPS or
+  setting up autogeneration on the VPS and once in a while pulling
+  the repo.)
 
   ```bash
-  cd /var/www/dustintran.com/blog
-  git pull origin master
-  ```
-6. Re-build the site. TODO
-
-  ```bash
-  jekyll build
+  cd /var/www/dustintran.com
+  git pull --all
   ```
 
 ## Maintenance
