@@ -39,7 +39,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # TODO Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-53150914-2"
   disqus_shortname:
   katex: true
 
