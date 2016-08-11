@@ -2,12 +2,13 @@
 
 This blog is built with [Jekyll](https://jekyllrb.com/).
 
-The theme is based off
+The theme builds off
 [Type Theme](https://rohanchandra.github.io/project/type/), and is
 heavily inspired by [Otoro](http://blog.otoro.net/), the [New York
 Times](http://www.nytimes.com/), and the
-[Rosenrot](http://the-rosenrot.com/). The journal-like frontpage takes
-cue from Paul Graham's [essays](http://paulgraham.com/articles.html).
+[Rosenrot](http://the-rosenrot.com/). The annals-like frontpage takes
+cue from Paul Graham's [essays](http://paulgraham.com/articles.html)
+and Cosma Shalizi's [notebooks](http://bactra.org/notebooks/).
 
 The following Jekyll plugins are used:
 
