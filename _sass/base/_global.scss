@@ -93,6 +93,7 @@ p, ol, ul, dl, .math-display {
 // KaTeX math display
 .math-display {
   display: inline-block;
+  text-align: center;
   width: 100%;
 }
 // Lists within lists
