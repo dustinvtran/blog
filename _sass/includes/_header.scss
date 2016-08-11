@@ -9,6 +9,7 @@
 
   a {
     color: $header-link-color;
+    text-decoration: none;
   }
 
   .avatar {
@@ -27,6 +28,7 @@
   }
 
   .site-nav {
+    font-size: 1.5em;
     ul {
       margin: 0;
       padding: 0;
