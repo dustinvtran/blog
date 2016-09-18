@@ -8,9 +8,11 @@ layout: default
     <div class="meta">
       <span class="author">
         By
-        <a class="author-name" href="{{ site.url }}">{{ site.theme_settings.author }}</a>
-        <!-- TODO guest posts -->
-        <!--{% if page.author %} - {{ page.author }}{% endif %}-->
+        {% if page.author %}
+          <a class="author-name" href="{{ site.url }}">{{ page.author }}</a>
+        {% else %}
+          <a class="author-name" href="{{ site.url }}">{{ site.theme_settings.author }}</a>
+        {% endif %}
       </span>
       <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
       <ul>
