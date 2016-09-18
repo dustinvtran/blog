@@ -45,7 +45,7 @@ Okay I don't quite have that one set up yet. But [it's
 doable](https://github.com/inukshuk/jekyll-scholar)!
 
 The blog's permalinks are the same. The [RSS feed]({{ site.baseurl
-}}/rss/) is still available.
+}}/rss/) is the same.
 
 ## Why the change?
 
