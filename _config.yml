@@ -58,6 +58,9 @@ theme_settings:
   # Post navigation
   post_navigation: false
 
+scholar:
+  sort_by: author
+
 # BUILD SETTINGS
 permalink: "/:title"
 sass:
