@@ -11,7 +11,7 @@ layout: default
         {% if page.author %}
           <a class="author-name" href="{{ site.url }}">{{ page.author }}</a>
         {% else %}
-          <a class="author-name" href="{{ site.url }}">{{ site.theme_settings.author }}</a>
+          {{ site.theme_settings.author }}</a>
         {% endif %}
       </span>
       <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
