@@ -4,7 +4,7 @@ title: Discussion of "Fast Approximate Inference for Arbitrarily Large Semiparam
 author: <a class="author-name" href="{{ site.url }}">Dustin Tran</a> and <a class="author-name" href="http://www.cs.columbia.edu/~blei/">David Blei</a>
 ---
 
-_This article is written with much help by David Blei. It is extracted from a discussion paper on "Fast Approximate Inference for Arbitrarily Large Semiparametric Regression Models via Message Passing"._ [[link]](https://arxiv.org/abs/1602.07412)
+_This article is written with much help by David Blei. It is extracted from a discussion paper on "Fast Approximate Inference for Arbitrarily Large Semiparametric Regression Models via Message Passing"._ [[link]](http://arxiv.org/abs/1609.05615)
 
 We commend {% cite wand2016fast --style apa-text --file 2016-09-19 %} for an excellent description of
 message passing (<span style="font-variant:small-caps;">mp</span>) and for developing it to infer large semiparametric
