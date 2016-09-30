@@ -9,9 +9,9 @@ layout: default
       <span class="author">
         By
         {% if page.author %}
-          <a class="author-name" href="{{ site.url }}">{{ page.author }}</a>
+          {{ page.author }}
         {% else %}
-          {{ site.theme_settings.author }}</a>
+          <a class="author-name" href="{{ site.url }}">{{ site.theme_settings.author }}</a>
         {% endif %}
       </span>
       <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
