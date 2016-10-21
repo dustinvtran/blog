@@ -63,3 +63,19 @@ You can compare `type-theme` to `master` and possibly merge in any
 changes. Keeping the theme up-to-date on a separate branch avoids
 treating the repo as a fork: this repo does more than just style
 things and is thus not appropriate as a fork.
+
+## Notes
+
+I had to do a hack for in-text citations.
+It copies apa, where the only difference is on lines 588-594. The file
+is in `etc/`.
+Also see [here](https://github.com/inukshuk/jekyll-scholar/issues/33).
+```
+  <layout suffix=")" delimiter="; ">
+    <group delimiter=" ">
+      <text macro="author-short"/>
+      <text prefix="(" macro="issued-year"/>
+      <text macro="citation-locator"/>
+    </group>
+  </layout>
+```
