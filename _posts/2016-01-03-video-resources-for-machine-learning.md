@@ -3,6 +3,9 @@ layout: post
 title: Video resources for machine learning
 ---
 
+Update (01/24/17): An updated list of video resources is being
+maintained [here](https://github.com/dustinvtran/ml-videos).
+
 One feature unique to our field is the sheer amount of online resources. It's one of the reasons I personally got into machine learning over other disciplines, as self-learning is much more accessible.
 
 This is especially true for video resources. Part of this is because as a field we are very well integrated with computer science, and thus we're technologically more motivated. (However, arguably no other computer science research domain has as many resources as us.) Whatever the reason, it's important that we take advantage of all the information available in order to maximize learning.
