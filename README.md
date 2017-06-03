@@ -35,7 +35,7 @@ Here's my workflow for writing and submitting blog posts.
 4. Copy generated blog into VPS.
 
   ```bash
-  scp -r blog digitalocean:/var/www/dustintran.com
+  scp -r ../blog digitalocean:/var/www/dustintran.com
   ```
 5. (Optionally), log into VPS and update website.
   (This process can be streamlined by either building on the VPS or
