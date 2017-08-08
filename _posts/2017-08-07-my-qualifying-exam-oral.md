@@ -68,6 +68,8 @@ you have strong opinions about a missing paper, recall [Hanlon's
 razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor). E-mail me your
 suggestions.
 
+Update (08/08/2017): I passed the oral. :-)
+
 References
 ----------
 
