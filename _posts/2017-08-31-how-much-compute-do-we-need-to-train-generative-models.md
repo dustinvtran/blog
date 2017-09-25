@@ -3,6 +3,8 @@ layout: post
 title: How much compute do we need to train generative models?
 ---
 
+_Update (09/01/17): The post is written to be somewhat silly and numbers are not meant to be accurate. For example, there is a very simplified assumption that training time scales linearly with the # of bits to encode the output; and 5000 is chosen arbitrarily given only that the output's range has 65K*3 dimensions and each takes one of 256 integers._
+
 Discriminative models can take weeks to train. It was only until a
 breakthrough two months ago by Facebook {% cite goyal2017accurate
 --file 2017-08-31 %} that we could successfully train a neural net
@@ -45,15 +47,17 @@ This begs the question: how much compute _should_ we expect in order
 to learn a generative model?
 
 Suppose we restrict ourselves to 256x256 ImageNet as a proxy for
-natural images. If we compare the entropy of the conditional
+natural images.
+A simple property in information theory says that the the entropy of
+the conditional
 $$p(\text{class label}\mid \text{natural image})$$
-to the unconditional
-$$p(\text{natural image})$$, then a simple property in information
-theory says that the former is upper bounded by at most $$\log K$$
-bits for $$K$$ classes.
-Comparing this to the number of bits for $$256\times 256=65,536$$
-pixels, each of which take 3 values from $$[0, 255]$$,
-then a very modest guess would be 5000 times more bits. We also need to
+is upper bounded by at most $$\log K$$ bits for $$K$$ classes.
+Comparing this to the entropy of the unconditional
+$$p(\text{natural image})$$, whose
+number of bits is a function of $$256\times 256=65,536$$
+pixels each of which take 3 values from $$[0, 255]$$,
+then a very modest guess would be that $$p(\text{natural image})$$ has
+5000 times more bits. We also need to
 account for the difference in training methods.  Let's say that the
 method for generative models is only 6x slower than that of
 discriminative models (5 discriminative updates per generator update;

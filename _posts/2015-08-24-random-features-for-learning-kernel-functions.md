@@ -36,7 +36,7 @@ __Random Fourier features__.
 $$
 Z_{ij}=z_i(x_j;
 w_i) \equiv \exp(i\cdot w_i^Tx_j)
-$
+$$
 
 This implies
 
