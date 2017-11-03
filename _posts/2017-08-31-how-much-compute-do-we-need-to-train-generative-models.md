@@ -3,7 +3,7 @@ layout: post
 title: How much compute do we need to train generative models?
 ---
 
-_Update (09/01/17): The post is written to be somewhat silly and numbers are not meant to be accurate. For example, there is a very simplified assumption that training time scales linearly with the # of bits to encode the output; and 5000 is chosen arbitrarily given only that the output's range has 65K*3 dimensions and each takes one of 256 integers._
+_Update (09/01/17): The post is written to be somewhat silly and numbers are not meant to be accurate. For example, there is a simplifying assumption that training time scales linearly with the # of bits to encode the output; and 5000 is chosen arbitrarily given only that the output's range has 65K*3 dimensions and each takes one of 256 integers._
 
 Discriminative models can take weeks to train. It was only until a
 breakthrough two months ago by Facebook {% cite goyal2017accurate
