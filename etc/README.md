@@ -1,6 +1,7 @@
-+ `apa-text.csl` | this is a custom citation style for use with
-  `citeproc-ruby`. put this in the directory where you
-  installed the gem ``csl-styles`,
++ `apa-text.csl` | This is a custom citation style for use with
+  `citeproc-ruby`. Put this in the directory where you
+  installed the gem ``csl-styles` (via `bundle info csl-styles` if you
+  did `bundle install` to install the `GEMFILE`).
   ```
-  vendor/cache/ruby/2.3.0/gems/csl-styles-1.0.1.7/vendor/styles
+  /path/to/csl-styles-1.0.1.7/vendor/styles
   ```
