@@ -32,19 +32,10 @@ Here's my workflow for writing and submitting blog posts.
   ```bash
   jekyll build --destination ../blog
   ```
-4. Copy generated blog into VPS.
+4. Copy generated blog onto my virtual private server, which hosts the blog.
 
   ```bash
   scp -r ../blog digitalocean:/var/www/dustintran.com
-  ```
-5. (Optionally), log into VPS and update website.
-  (This process can be streamlined by either building on the VPS or
-  setting up autogeneration on the VPS and once in a while pulling
-  the repo.)
-
-  ```bash
-  cd /var/www/dustintran.com
-  git pull --all
   ```
 
 ## Maintenance
